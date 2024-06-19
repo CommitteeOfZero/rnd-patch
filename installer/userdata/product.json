@@ -1,0 +1,48 @@
+{
+    "windowTitle": "ROBOTICS;NOTES DaSH Improvement Patch (Steam) Installer",
+    "uninstallerWindowTitle": "ROBOTICS;NOTES DaSH Improvement Patch (Steam) Uninstaller",
+    "gameTitle": "ROBOTICS;NOTES DaSH",
+    "inputScriptVersionTitle": "English Steam",
+    "languagebarrier_proxy_dll": "dinput8",
+    "paths": {
+        "GAME_STEAM_NAME": "Robotics;Notes DaSH",
+        "PATCH_CONTENT": "DIST",
+        "LAUNCHERENG_PATH": "%GAME_PATH%/LauncherC0.exe",
+        "LANGUAGEBARRIER_LOG_PATH": "%GAME_PATH%/languagebarrier/log.txt",
+        "LANGUAGEBARRIER_FONTS_DIR": "%GAME_PATH%/languagebarrier/fonts",
+        "LAUNCHER_EXE": "LauncherC0.exe"
+    },
+    "platforms": {
+        "windows": {
+            "conflictingProcesses": [
+                "Game.exe",
+                "noidget.exe",
+                "launcher.exe",
+                "LauncherC0.exe",
+                "RNDPatch-Installer.exe"
+            ],
+            "uninstallProductKey": "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\RoboticsNotesDaSHSteamPatch",
+            "uninstallProductDisplayName": "ROBOTICS;NOTES DaSH Improvement Patch (Steam)",
+            "uninstallProductDisplayVersion": "1.1.0",
+            "uninstallProductVersionMajor": 1,
+            "uninstallProductVersionMinor": 0,
+            "uninstallProductUninstallString": "\"%GAME_PATH%/nguninstall.exe\"",
+            "paths": {
+                "COZ_CONFIG_LOCATION": "%LOCALAPPDATA%/Committee of Zero",
+                "CONFIG_LOCATION": "%COZ_CONFIG_LOCATION%/RNDSteam",
+                "MAGES_CONFIG_LOCATION": "%MYDOCUMENTS%/My Games/mages_steam",
+                "GAME_CONFIG_LOCATION": "%MAGES_CONFIG_LOCATION%/Robotics Notes DASH/eng",
+                "DESKTOP_SHORTCUT_PATH": "%DESKTOP%/ROBOTICS;NOTES DaSH Improvement Patch (Steam).lnk",
+                "STARTMENU_SHORTCUT_PATH": "%STARTMENU%/ROBOTICS;NOTES DaSH Improvement Patch (Steam).lnk"
+            }
+        }
+    },
+    "playShortcut": {
+        "displayName": "ROBOTICS;NOTES DaSH Improvement Patch (Steam)",
+        "version": "1.1.0",
+        "targetPath": "%LAUNCHERENG_PATH%",
+        "workingDir": "%GAME_PATH%",
+        "tooltip": "Play ROBOTICS;NOTES DaSH Improvement Patch (Steam)",
+        "xdgCategories": "Game"
+    }
+}
